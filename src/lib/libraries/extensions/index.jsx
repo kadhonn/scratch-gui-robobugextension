@@ -50,6 +50,26 @@ export default [
     {
         name: (
             <FormattedMessage
+                defaultMessage="Robobug"
+                description="Name for the 'Robobug' extension"
+                id="gui.extension.robobug.name"
+            />
+        ),
+        extensionId: 'robobug',
+        iconURL: penIconURL,
+        insetIconURL: penInsetIconURL,
+        description: (
+            <FormattedMessage
+                defaultMessage="Control the Robobug!"
+                description="Description for the 'Robobug' extension"
+                id="gui.extension.robobug.description"
+            />
+        ),
+        featured: true
+    },
+    {
+        name: (
+            <FormattedMessage
                 defaultMessage="Music"
                 description="Name for the 'Music' extension"
                 id="gui.extension.music.name"
